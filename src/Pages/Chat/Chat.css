@@ -1,0 +1,61 @@
+.chat-body{
+    height: 67vh;
+}
+
+.chat-avatar{
+    background-color: #fbe0e0;
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    color: #e00000;
+    font-size: 25px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.chat-header{
+    height: 9.5vh;  
+}
+
+.current-chat{
+    background-color: #F6F6F6;
+}
+
+.chat-log{
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chat-side-left{
+    height: 57vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chat-input-message{
+    height: 7vh;
+    background-color: #fff;
+}
+
+.chat-input-icon{
+    height: 7vh;
+}
+
+.sender-bubble{
+    background-color: #C4DBFA;
+    min-width: auto;
+    max-width: 20rem;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.receiver-bubble{
+    background-color:#CAF7B7;
+    min-width: auto;
+    max-width: 20rem;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px 0px;
+}

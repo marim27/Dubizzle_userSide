@@ -1,0 +1,97 @@
+.user-avatar {
+  background-color: #fbe0e0;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.user-avatar p {
+  color: #463e3e;
+  font-weight: 540;
+  font-size: 20px;
+  padding-top: 17px;
+  line-height: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+.user-info > p:first-child {
+  font-size: 15px;
+  line-height: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+.dropUserMenuStyle {
+  font-size: 1vw !important;
+}
+.user-info > p:nth-child(2) {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+.user-info > p:nth-child(3) {
+  font-size: 15px;
+  text-decoration: underline;
+  line-height: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+.fav-menu {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.user-menu:hover {
+  background-color: #f6f6f6;
+}
+
+.user-menu-container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.wallet-class {
+  background-color: #e7f1fd;
+}
+
+.dropUser {
+  position: absolute;
+  background-color: #fff;
+  width: 18rem;
+  padding: 10px 0;
+  top: 3.8rem;
+  right: 10.5rem;
+  max-height: 40rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.dropUser2 {
+  position: absolute;
+  background-color: #fff;
+  width: 21rem;
+  padding: 10px 0;
+  top: 3.8rem;
+  right: 50.5rem;
+  max-height: 40rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* .dropUser{
+    position: absolute;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px 0 ;
+    right: 140px;
+}
+   */
+.link-of-favorite{
+    text-decoration: none;
+    color: #23262A;
+}

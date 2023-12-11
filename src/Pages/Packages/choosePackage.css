@@ -1,0 +1,83 @@
+.card_head {
+    background-color: #fff6d9;
+
+}
+
+.cardP {
+    width: 36rem;
+    border: 1px solid #eee;
+    border-radius: .5%;
+    border-bottom: 1px solid #eee;
+}
+
+.smallFont {
+    font-size: small;
+}
+
+input[type="checkbox"] {
+    accent-color: #e00000;
+    transform: scale(1.8);
+    cursor: pointer;
+}
+
+.borderBottom {
+    border-bottom: 4px solid #eee;
+}
+
+.exBtn:hover {
+    background-color: #FEF5F5;
+}
+
+.discount {
+    background-color: #ffe694;
+}
+
+.modal-dialog {
+    margin-right: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .cartbtn {
+        width: 100% !important;
+    }
+
+    .centered-image {
+        max-width: 250%;
+    }
+}
+
+
+
+.close {
+    position: relative !important;
+}
+
+.closeBtn {
+    position: absolute;
+    left: 100% !important;
+}
+
+.borderRight {
+    border-right: 3px solid #fff;
+}
+
+.bgOlx {
+    background-color: #e00000;
+    color: #fff;
+}
+
+.cartbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 100;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(0, 0, 0, .1);
+}
+
+@media screen and (max-width: 768px) {
+    .cartbtn {
+        width: 100% !important;
+    }
+}

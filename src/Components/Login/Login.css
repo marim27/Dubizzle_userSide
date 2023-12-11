@@ -1,0 +1,74 @@
+.modal-content {
+    min-width: 28rem;    
+    margin-left: 90%;
+}
+
+.btn-login{
+    width: 98%;
+    border: 1px solid #ff9191;
+    background-color: white;
+    padding: 8px 0;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}  
+
+.btn-login:hover{
+    background-color: #fcf3f3;
+}
+
+.sp1{
+    font-size: 13px;
+}
+
+.sp1 span{
+    color: blue;
+}
+
+.next-btn{
+    padding: 8px 20px;
+    background-color: red;
+    width: 190px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+
+.next-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(216, 2, 2);
+}
+
+.disable{
+  padding: 8px 20px;
+  background-color: #edeeee;
+  width: 190px;
+  color: #999796;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+}
+
+.forgot_password{
+    font-weight: bold;
+    color: #3a88ef;
+    cursor: pointer;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-not-allowed{
+    cursor:not-allowed;
+}
+.olx-btn{
+    background-color: #e00000;
+    color: #ffffff !important;
+  }
+  .text-small{
+    font-size: smaller;
+  }

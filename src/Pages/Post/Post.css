@@ -1,0 +1,170 @@
+.dubizzle {
+  width: 100px !important;
+}
+
+.fs-sm {
+  font-size: smaller;
+}
+
+.radio-btn {
+  border: 1px solid lightgray;
+  width: auto;
+  height: 33px;
+  border-radius: 5px;
+  padding: 0 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radio-btn:hover {
+  font-weight: bold;
+}
+
+.post {
+  padding: 10px 20px;
+  background-color: red;
+  width: 130px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+}
+
+.post:hover {
+  cursor: pointer;
+  background-color: rgb(216, 2, 2);
+}
+
+.outer {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.inner {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.outer+p {
+  padding-top: 14px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.radio-btn-active {
+  background-color: #fbe0e0;
+  font-weight: bold;
+  border-color: red;
+}
+
+.radio-btn-active .outer {
+  background-color: red;
+  border: none;
+}
+
+.radio-btn-active .inner {
+  background-color: #fbe0e0;
+}
+
+.custom-red-border {
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+/* /////// */
+.divs {
+  position: relative;
+  border: 1px solid #d0d0d0;
+  width: 3rem;
+  /* right: 5%; */
+  height: 4rem;
+  cursor: pointer;
+}
+
+.imgs {
+  width: 104px;
+  height: 104px;
+}
+
+.inputs {
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.image {
+  width: 8rem;
+  height: 80px;
+  border-radius: 10%;
+}
+
+.img {
+  border: 1px solid #919191;
+  width: 6.5rem;
+  height: 80px;
+  margin-left: 1rem;
+  border-radius: 10%;
+  position: relative;
+}
+
+.imageDiv img {
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.photo {
+  cursor: pointer;
+  height: auto;
+  width: 60%;
+}
+
+.xIcone {
+  border-radius: 10%;
+  cursor: pointer;
+  background-color: #f5f5f57d;
+  border: 1px solid #eee;
+}
+
+.xIcone:hover {
+  background-color: #fff;
+}
+
+input[type=radio] {
+  width: 26px;
+  height: 26px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin-right: 10px;
+  outline: #c2c2c2;
+  -webkit-border: 2px solid #c2c2c2;
+  -moz-border: 2px solid #c2c2c2;
+  border: 2px solid #c2c2c2;
+  border-radius: 20%;
+  display: inline-block;
+
+}
+
+input[type=radio]:checked {
+  background-color: #e00000;
+  border: none;
+  outline: none;
+}
+
+.font {
+  font-weight: 700;
+}

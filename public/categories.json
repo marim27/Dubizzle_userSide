@@ -1,0 +1,202 @@
+{
+	"Vehicles" :{
+			"icon" : "./svg/vehicles.svg",
+			"subcategories" : [
+				"Cars for Sale",
+				"Cars for Rent",
+				"Tyres, Batteries, Oil, & Accessories",
+				"Cars Spare Parts",
+				"Motocycles & Accessories",
+				"Boats - Watercraft",
+				"Heavy Trucks, Buses & Other Vehicles"
+			]
+	},
+	"Properties" :{
+			"icon" :"./svg/property-for-rent.svg",
+			"subcategories" : [
+				"Apartments & Duplex for sale",
+				"Apartments & Duplex for Rent",
+				"Villa For Sale",
+				"Villa For Rent",
+				"Vacation Homes for Sale",
+				"Vacation Homes for Rent",
+				"Commercial for Sale",
+				"Commercial for Rent",
+				"Buildings & Lands"
+			]
+	},
+	"Mobiles & Tablets" :{
+			"icon" :"./svg/mobiles.svg",
+			"subcategories" : [
+				"Mobile Phones",
+				"Tablets",
+				"Mobile & Tablet Accessories",
+				"Mobile Numbers"
+			]
+	},
+	"Jobs" :{
+			"icon" :"./svg/jobs.svg",
+			"subcategories" : [
+				"Accounting, Finance & Banking",
+				"Engineering",
+				"Designers",
+				"Customer Service & Call Center",
+				"Workers and Technicians",
+				"Management & Consulting",
+				"Drivers & Delivery",
+				"Education",
+				"HR",
+				"Tourism, Travel & Hospitality",
+				"IT - Telecom",
+				"Marketing and Public Relations",
+				"Medical, Healthcare, & Nursing",
+				"Sales",
+				"Secretarial",
+				"Guards and Security",
+				"Legal - Lawyers",
+				"Other Job"
+			]
+	},
+	"Electronics & Appliances" :{
+			"icon" :"./svg/electronics.svg",
+			"subcategories" : [
+				{
+					"title":"TV - Audio - Video",
+					"subcategories":[
+						"Televisions",
+						"DVD - Home Theater",
+						"Home Audio",
+						"Mp3 Players - Portable audio",
+						"Satellite TV receivers"
+					]
+				},
+				{
+					"title":"Computers - Accessories",
+					"subcategories":[
+						"Desktop computers",
+						"Laptop computers",
+						"Computer Accessories & Spare Parts"
+					]
+				},
+				{
+					"title":"Video games - Consoles",
+					"subcategories":[
+						"Vido Game Consoles",
+						"Vido Game & Accessories"
+					]
+				},
+				{
+					"title":"Cameras - imaging",
+					"subcategories":[
+						"Cameras",
+						"Security Cameras",
+						"Cameras Accessories",
+						"Binoculars - Telescopes"
+					]
+				},
+				{
+					"title":"Home Appliances",
+					"subcategories":[
+						"Refrigerators - Freezers",
+						"Ovens - Microwaves",
+						"Dishwashers",
+						"Cooking Tools",
+						"Washers - Dryers",
+						"Water Coolers & Kettles",
+						"Air conditioners & Fans",
+						"Cleaning Appliances",
+						"Heaters"
+					]
+				}
+			]
+	},
+	"Furniture & Decor" :{
+			"icon" :"./svg/furniture.svg",
+			"subcategories" : [
+				"Bathroom",
+				"Bedroom",
+				"Dining Room", 
+				"Fabrics - Curtains - Carpets",
+				"Garden - Outdoor",
+				"Home Decoration",
+				"Kitchen - Kitchenwave",
+				"Lighting Tools",
+				"Living Room",
+				"Multiple/ Other Furniture"
+			]
+	},
+	"Fashion & Beauty" :{
+			"icon" :"./svg/fashion.svg",
+			"subcategories" : [
+				"Women's Clothing",
+				"Men's Clothing",
+				"Women's Accessories - Cosmetics - Personal Care",
+				"Men's Accessories - Personal Care"
+			]
+	},
+	"Pets" :{
+			"icon" :"./svg/animals.svg",
+			"subcategories" : [
+				"Birds - Pigeons",
+				"Cats",
+				"Dogs",
+				"Other Pets & Animals",
+				"Accessories - Pet Care Products"
+			]
+	},
+	"Kids & Babies" :{
+			"icon" :"./svg/kids.svg",
+			"subcategories" : [
+				"Baby & Mom Healthcare",
+				"Baby Clothing",
+				"Baby Feeding Tools",
+				"Cribs - Strollers - Carriers",
+				"Toys",
+				"Other Baby Items"
+			]
+	},
+	"Hobbies" :{
+			"icon" :"./svg/bikes.svg",
+			"subcategories" : [
+				"Antiques - Collectibles",
+				"Bicycles",
+				"Books",
+				"Board - Card Games",
+				"Movies - Music",
+				"Musical Instuments",
+				"Sports Equipment",
+				"Study Tools",
+				"Tickets - Vouchers",
+				"Luggage",
+				"Other Items"
+			]
+	},
+	"Businesses & industrial":{
+			"icon" :"./svg/business.svg",
+			"subcategories" : [
+				"Agriculture",
+				"Construction",
+				"Industrial Equipment",
+				"Medical Equipment",
+				"Office Furniture & Equipment",
+				"Restaurants Equipment",
+				"Whole Business for Sale",
+				"Other Business, Industrial, Agriculture"
+			]
+		},
+	"Services" :{
+			"icon" :"./svg/services.svg",
+			"subcategories" : [
+				"Business",
+				"Car",
+				"Events",
+				"Health & Beauty",
+				"Home Services & Maintenance",
+				"Medical",
+				"Movers",
+				"Pets",
+				"Education",
+				"Other Services"
+			]
+	}
+}

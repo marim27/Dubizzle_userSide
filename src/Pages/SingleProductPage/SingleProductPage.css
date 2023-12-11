@@ -1,0 +1,206 @@
+.body {
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.close-overlay {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* //////////// add classes */
+/* #carouselNB {
+    position: absolute;
+    top: 50%;
+    right: 2vw;
+}
+
+#carouselPB {
+
+    position: absolute;
+    top: 50%;
+    left: 2vw;
+
+}
+
+#carouselNT {
+    position: absolute;
+    top: 15vw;
+    left: 5vw;
+}
+
+#carouselPT {
+    position: absolute;
+    top: 15vw;
+    right: 5vw;
+} */
+
+/* //////////// add classes */
+
+.close-overlay2 {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pagination {
+    text-align: center;
+}
+.locationTransition{
+     transition:  0.5s;
+}
+.locationTransition:hover {
+ transform: scale(1.2);}
+
+.prev,
+.next {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.image-number {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+}
+
+.comp-logo-img {
+    width: 160px;
+    height: 52px;
+}
+
+.loc-img {
+    position: relative;
+}
+
+.loc-btn {
+    position: absolute;
+    top: 295%;
+    left: 35%;
+}
+
+.main-add {
+    background-color: rgba(0, 0, 0, .4);
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.adds {
+    border: solid 1px black;
+    background-color: white;
+     width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+   transform: translateY(-50%);
+    margin: 0 -6px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0 1.5em;
+}
+
+.chato:hover {
+    background-color: #FEF5F5;
+}
+
+.showPhone:hover {
+    background-color: #BA0000 !important;
+}
+
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
+@media (max-width: 767px) {
+    #carouselExampleCaptions {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #carouselExampleCaptions2 {
+        display: none;
+    }
+
+}
+
+.userIcone{
+    background-color: #fbe0e0;
+    border-radius: 50%;
+    text-transform: uppercase;
+    width: 15%;
+    height: 100%;
+}
+.olx-light-yellow{
+    background-color: #fff5da;
+}
+.font-small{
+    font-size: smaller;
+}

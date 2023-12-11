@@ -1,0 +1,23 @@
+.search-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50px;
+  width: 34.5rem;
+  z-index: 100;
+  opacity: 1;
+  background-color: white;
+}
+.search-li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-li:hover {
+  background-color: #f6f6f6;
+}
+.roundedBtn{
+  border-radius: 10% 0 0 10% !important;
+}

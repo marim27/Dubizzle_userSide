@@ -1,0 +1,92 @@
+.outer {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    position: relative;
+  }
+  
+  .inner {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+  
+  .outer+p {
+    padding-top: 14px;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  .radio-btn-active {
+    background-color: #fbe0e0;
+    font-weight: bold;
+    border-color: red;
+  }
+  
+  .radio-btn-active .outer {
+    background-color: red;
+    border: none;
+  }
+  
+  .radio-btn-active .inner {
+    background-color: #fbe0e0;
+  }
+  
+  .custom-red-border {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+  }
+
+  .radio-btn {
+    border: 1px solid lightgray;
+    width: auto;
+    height: 33px;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .radio-btn:hover {
+    font-weight: bold;
+  }
+
+  .msg{
+    font-size: 12px;
+}
+
+.change-pass{
+    padding: 8px 20px;
+    background-color: red;
+    width: 190px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+
+.change-pass:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(216, 2, 2);
+}
+
+.disable{
+  padding: 8px 20px;
+  background-color: #edeeee;
+  width: 190px;
+  color: #999796;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+}
+

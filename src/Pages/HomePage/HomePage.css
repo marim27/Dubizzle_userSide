@@ -1,0 +1,12 @@
+#a {
+    position: sticky;
+    top: 35%;
+    z-index: 10;
+  }
+  #a:hover {
+    color: #222 !important;
+  }
+  #back_to_top:hover {
+    background-color: rgb(255, 244, 244) !important;
+  }
+  

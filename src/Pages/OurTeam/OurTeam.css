@@ -1,0 +1,14 @@
+.imgTeam{
+    height: 20vw;
+}
+.teamIcon {
+    color: #e00000;
+    font-size: larger;
+  }
+  .font{
+    background-color: #eee;
+  }
+  .ourImg{
+    border-radius: 50%;
+    height:135px ;
+  }

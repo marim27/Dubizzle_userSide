@@ -1,0 +1,15 @@
+.location{
+    max-height: 200px;
+    max-width: 20.6rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.loc:hover{
+    background-color:#fbe0e0;
+}
+
+.loc-filter{
+    min-height: 50.1px;
+}

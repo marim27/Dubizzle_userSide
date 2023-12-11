@@ -1,0 +1,24 @@
+.active-fav{
+    border-bottom: 3px solid #e00000;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.fav{
+    border-bottom: 3px solid #111;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #111;
+}
+
+.saved-search-card{
+    width: 400px;
+    height: 180px;
+    overflow: hidden;
+}
+
+/* .fav-cards{
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+} */

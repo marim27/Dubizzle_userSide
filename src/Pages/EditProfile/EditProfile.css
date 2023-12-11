@@ -1,0 +1,17 @@
+.btn-red{
+    background-color: red;
+    color: white;
+
+}
+
+.text-red{
+    color: red;
+}
+
+.msg{
+    font-size: 11px;
+}
+
+.edit-profile{
+    width: 998px !important;
+}

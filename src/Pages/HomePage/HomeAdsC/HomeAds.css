@@ -1,0 +1,43 @@
+/* p{
+    overflow: hidden;
+} */
+
+.responsiveCard{
+  width:23% ;
+}
+
+@media screen and (max-width: 768px) {
+  .responsiveCard {
+    width: 46% ;
+    margin: 1rem auto !important;
+  }
+}
+@media screen and (max-width: 500px) {
+    .responsiveCard {
+      width: 90% ;
+      margin: 1rem auto !important;
+      
+    }
+  }
+
+.heart-icon{
+    color: #E00000;
+    cursor: pointer;
+}
+.link-of-product-title{
+    text-decoration: none;
+    color: #23262A;
+}
+
+.imaBadge,
+.imaBadge2{
+height: 1.4rem;
+color: black;
+border-radius: 3px;
+}
+.imaBadge{
+background-color: #FFBA3C;
+}
+.imaBadge2{
+background-color: #ff3030;
+}

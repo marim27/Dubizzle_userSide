@@ -1,0 +1,7 @@
+
+.angle_div {
+    transition: 500ms;
+  }
+  .angle_a:hover .angle_div {
+    margin-left: 0.8rem !important;
+  }

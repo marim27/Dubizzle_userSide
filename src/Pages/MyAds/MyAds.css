@@ -1,0 +1,40 @@
+.myad-date-card {
+    min-width: 40rem;
+}
+
+.myad-img-card {
+    /* width: 70px; */
+    height: 5rem;
+}
+
+.myad-delete-card {
+    border: 1px solid #e00000;
+    font-weight: bold;
+    color: #777;
+}
+
+.myad-delete-card:hover {
+    border: 1px solid #e00000;
+    font-weight: bold;
+    background-color: #fbe0e0;
+    color: #111;
+}
+
+.overflowTitlehidden {
+    overflow-y: hidden;
+    height: 1.5rem;
+}
+
+.blue-div {
+    background-color: #e7f1fd;
+}
+
+.olx-btn {
+    background-color: #e00000;
+    color: #fff;
+}
+
+.olx-btn:hover {
+    background-color: #e00000;
+    color: #fff;
+}

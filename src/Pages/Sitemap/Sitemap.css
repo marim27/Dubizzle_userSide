@@ -1,0 +1,18 @@
+.text_small{
+    font-size: .8vw;
+}
+.text_location{
+    font-size: .9vw;
+}
+.box{
+    background-color: #fdeeee;
+}
+.box-50{
+    border-radius: 50%;
+    width: 98%;
+    height: 38px;
+    background-color: #fff;
+}
+.location_container{
+    width: 50%;
+}

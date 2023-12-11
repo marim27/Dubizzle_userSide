@@ -1,0 +1,26 @@
+.img-profile{
+    background-color: #fbe0e0;
+    font-size: 100px;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    font-weight: 350;
+}
+
+.btn-share{
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid #e00000;
+    box-shadow: none;
+}
+
+.btn-share:hover{
+    background-color: #fbe0e0;
+    border: 1px solid #e00000;
+    box-shadow: none;
+}
+.btn-share:focus{
+    box-shadow: none; 
+    border: 1px solid #e00000;
+}
+
